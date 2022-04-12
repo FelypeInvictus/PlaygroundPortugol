@@ -1,0 +1,40 @@
+programa {
+	funcao inicio() {
+		cadeia pais
+		inteiro idade
+		logico permissao
+		
+		escreva ("Country/país (BRA, USA, POR)\n")
+		leia (pais)
+		
+		limpa()
+		
+		se (pais =="BRA" ou pais=="POR"){
+		    escreva ("Qual a tua idade?\n")
+		    
+		} senao {
+		    escreva ("Age: \n")
+		}
+		leia (idade)
+		limpa()
+		
+		
+		
+		se ((pais =="BRA" e idade >=18) ou (pais =="USA" e idade >=25) ou pais =="POR"){
+		    permissao = verdadeiro
+		}senao {
+		   permissao = falso
+		}
+		
+		se (permissao e (pais =="POR" ou pais =="BRA")){
+		    escreva ("Permitido")
+		} senao se (permissao e pais == "USA"){
+		    escreva ("Allowed")
+		} senao se (nao permissao e pais == "USA"){
+		    escreva ("Not Allowed")
+		} senao se (nao permissao e (pais=="POR" ou pais =="BRA")){
+		    escreva ("Não permitido")
+		}
+		    
+	} 
+}
