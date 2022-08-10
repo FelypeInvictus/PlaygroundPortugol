@@ -6,7 +6,7 @@ Conjunto de scripts feito na Pseudolinguagem Portugol.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-                                       USEI O PORTUGOL PQ APRENDER LOGICA DA PROGRAMAÇÃO
+                                        APRENDIZADO DE LOGICA DA PROGRAMAÇÃO
       
 
 
